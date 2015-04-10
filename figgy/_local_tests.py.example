@@ -1,0 +1,6 @@
+# Place any settings overrides you need to make while testing here.
+from figgy._test_settings import *
+
+NOSE_ARGS += [
+    '--nocapture'
+]

@@ -2,21 +2,20 @@
 
 figgy is sample code for interviews that relates to some of the code in our content management system.
 
+As a prospective applicant you have two options for submitting a job application:
+
+The first is to develop your own solution and submit a pull request that we will review (You can also submit your solution as a patch if you don’t wish to have your solution public on Git).  Also, if you haven’t done so, submit a resume and cover letter through our corporate site.
+
+Alternatively, you may review any of the currently closed pull requests in this repo.  The closed requests are a mixture of past applications, and your challenge is to pick out one approach that you would submit in lieu your own solution.  Apply through the listing for a Python engineer on our corporate site and tell us what your chosen approach would be and why.
+
+Pull requests to make the setup process or documentation smoother are more than welcome.
+
 
 # Python
  
-## Mac Setup
+## Setup
 
 ### System dependencies
-
-Assuming you're on a Mac, follow the steps below. If you're not, you're on your own.
-
-Start by making sure you have these packages from Homebrew (`brew install` them but really closely
-follow the Homebrew docs, *especially* for the databses):
-
-* (None, yet)
-
-Also do:
 
 * virtualenv (`sudo easy_install virtualenv`)
 
