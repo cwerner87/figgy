@@ -87,3 +87,11 @@ You received an initial set of data with very loose specs and created a basic da
 $ python manage.py process_data_file data/update/*.xml
 ````
 
+## My Comments
+
+The overarching theme of my solution is to get the data into the system as best as we can given our evolving understanding.
+We make several decisions regarding how to resolve conflicts and impute data when it's missing. It's entirely possible
+that these decisions will not work with future updates and will require re-tooling, so whenever we spot a conflict, we record the
+issue in the database. This will allow us to go back and undo any changes or re-tool our approach in the future if need be.
+Moreover, it lets us communicate to the business the decisions we've made to integrate the new data. Further rationale
+behind these decisions are detailed in the code.
